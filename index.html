@@ -106,11 +106,11 @@ Introduction to Data Management, Analysis and Security </li>
     if (link!=null) {
       document.write(`<td><div style="width: 230px">\
       <a target="_blank" href=${link[0][0]}>\
-      <img width="230" height="130" src=${img}></a>\
+      <iframe src=${img} style="width:230px; height:130px; frameborder="0"></a>\
       </div></td>`)
     } else {
       document.write(`<td><div style="width: 230px">\
-      <iframe src=${img} style="width:230; height:130; frameborder="0"></a>\
+      <iframe src=${img} style="width:230px; height:130px; frameborder="0"></iframe>\
       </div></td>`)
     }
 
@@ -146,7 +146,7 @@ Introduction to Data Management, Analysis and Security </li>
                img='./images/GOSS.png',
                author='Jie Hong, Weihao Li, Junlin Han, <b>Jiyang Zheng</b>, Pengfei Fang, <br> Mehrtash Harandi, Lars Petersson',
                note='Preprint',
-               link=[["https://arxiv.org/abs/2203.12116","arXiv"], ["https://arxiv.org/pdf/2203.12116.pdf","pdf"],["./bibtex/paper3.txt","BibTex"]]);
+               link=[["https://arxiv.org/abs/2203.12116","arXiv"], ["https://arxiv.org/pdf/2203.12116.pdf","pdf"],["./bibtex/GOSS.txt","BibTex"]]);
   </script>
   </table>
 
