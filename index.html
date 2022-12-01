@@ -123,6 +123,7 @@ lab/tutorial teaching, assignment making and marking for the following courses:
 
   function add_publication(title, img, author, note, link, bib, tag){
     // link=[[url, arXiv],]
+    document.write('<center>')
     document.write('<tr>')
     if (link!=null) {
       document.write(`<td><div style="width: 230px">\
@@ -148,7 +149,7 @@ lab/tutorial teaching, assignment making and marking for the following courses:
     }
     // document.write(`<div class="bib" id=${tag} style="display:none;"><pre>${bib}</pre></div>`)
     document.write('</td></tr>')
-
+    document.write('</center>')
   }
 </script>
 
