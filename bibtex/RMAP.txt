@@ -1,6 +1,0 @@
-@article{zhan2022activermap,
-  title={ActiveRMAP: Radiance Field for Active Mapping And Planning},
-  author={Zhan, Huangying and Zheng, Jiyang and Xu, Yi and Reid, Ian and Rezatofighi, Hamid},
-  journal={arXiv preprint arXiv:2211.12656},
-  year={2022}
-}
